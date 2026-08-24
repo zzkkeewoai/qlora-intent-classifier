@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+env/
+.venv
+
+# 密钥与环境（绝不入库）
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# 测试缓存
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 生成的数据（可重新构建）
+data/*.json

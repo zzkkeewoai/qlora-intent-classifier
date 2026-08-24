@@ -1,0 +1,20 @@
+# 训练（Colab 用）
+unsloth
+xformers
+trl
+peft
+accelerate
+bitsandbytes
+datasets
+
+# 推理（本地 CPU 用）
+llama-cpp-python
+
+# 评测 + 服务
+fastapi>=0.110.0
+uvicorn>=0.27.0
+openai>=1.0.0
+pydantic>=2.0.0
+
+# 工具
+python-dotenv>=1.0.0
